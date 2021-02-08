@@ -10,10 +10,9 @@
 
 import Header from './components/Header.vue'
 import Sidebar from './components/Sidebar.vue'
-
+import './assets/js/home'
 
 export default {
-
   name: 'App',
   components: {
     Header,

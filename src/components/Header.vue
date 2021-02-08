@@ -36,9 +36,9 @@
         </form> -->
       </div>
       </nav>
-    <div>
-      <h2 id="welcome" >¡Bienvenido a tus tareas!</h2>
-    </div>
+      <div class="marginDiv">
+        <h1 id="welcome" >¡Bienvenido a tus tareas!</h1>
+      </div>
     </div>
     
 </template>

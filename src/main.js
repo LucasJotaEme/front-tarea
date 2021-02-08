@@ -9,6 +9,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
+const $ = require('jquery')
+window.$ = $
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')

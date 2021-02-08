@@ -17,6 +17,10 @@
     margin-top:5px;
 }
 
+.marginDiv{
+    margin:50px;
+}
+
 
 .header .navbar {
     background-color: transparent !important;
