@@ -10,10 +10,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav m-auto">
           <li class="nav-item active">
-            <a class="nav-link marginNav" href="#">Home <span class="sr-only">(current)</span></a>
+            <router-link to="/home" class="nav-link marginNav">Home <span class="sr-only">(current)</span></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link marginNav" href="#">Link</a>
+            <router-link class="nav-link marginNav" href="#">Link</router-link>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link marginNav dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,9 +36,6 @@
         </form> -->
       </div>
       </nav>
-      <div class="marginDiv">
-        <h1 id="welcome" >¡Bienvenido a tus tareas!</h1>
-      </div>
     </div>
     
 </template>

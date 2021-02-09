@@ -3,16 +3,22 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
     
 }
 
-.header {
+body{
     background-image: radial-gradient(circle at 9.44% -7.92%, #ffffb6 0, #ffffb3 8.33%, #fff9b0 16.67%, #ffebad 25%, #ffdba9 33.33%, #ffcba4 41.67%, #f2b99d 50%, #dca896 58.33%, #c99b8f 66.67%, #b78f89 75%, #a88684 83.33%, #9b7e7f 91.67%, #91797b 100%);
     background-size: cover;
     min-height: 100vh;
 }
 
+.bigFont{
+    font-size: 60px;
+}
+
+.color{
+    color:rgb(211, 55, 101);
+}
 .marginNav{
     margin-top:5px;
 }

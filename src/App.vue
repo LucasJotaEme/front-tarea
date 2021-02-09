@@ -2,6 +2,7 @@
   <div id="app">
     <Header></Header>
     <Sidebar></Sidebar>
+    <router-view></router-view>
   </div>
 
 </template>
@@ -10,7 +11,10 @@
 
 import Header from './components/Header.vue'
 import Sidebar from './components/Sidebar.vue'
-import './assets/js/home'
+import jQuery from 'jquery';
+
+let $ = jQuery;
+
 
 export default {
   name: 'App',
@@ -18,6 +22,13 @@ export default {
     Header,
     Sidebar
     
+  },
+  mounted: function () {
+    var marginDiv = $('.marginDiv').hide();
+    var navbar = $('nav').hide();
+
+    marginDiv.slideDown(500);
+    navbar.slideDown(200);
   }
 }
 
