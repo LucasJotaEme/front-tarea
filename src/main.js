@@ -9,7 +9,7 @@ import $ from 'jquery'
 import VueRouter from 'vue-router';
 
 //Import de Components
-import Sidebar from './components/Sidebar';
+import Home from './components/Home';
 
 
 
@@ -18,7 +18,8 @@ Vue.use(VueRouter);
 Vue.config.productionTip = false
 
 const routes = [
-  {path: '/home', component: Sidebar}
+  {path: '/home', component: Home},
+  {path: '/', component: Home}
 ]
 
 const router = new VueRouter({

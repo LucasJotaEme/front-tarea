@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
-    <Sidebar></Sidebar>
-    <router-view></router-view>
+    <Home></Home>
   </div>
 
 </template>
@@ -10,24 +9,22 @@
 <script>
 
 import Header from './components/Header.vue'
-import Sidebar from './components/Sidebar.vue'
+import Home from './components/Home.vue'
 import jQuery from 'jquery';
 
-let $ = jQuery;
 
+let $ = jQuery;
 
 export default {
   name: 'App',
   components: {
     Header,
-    Sidebar
-    
+    Home    
   },
   mounted: function () {
     var marginDiv = $('.marginDiv').hide();
     var navbar = $('nav').hide();
-
-    marginDiv.slideDown(500);
+    marginDiv.slideDown(800);
     navbar.slideDown(200);
   }
 }

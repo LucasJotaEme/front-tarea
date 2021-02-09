@@ -6,6 +6,11 @@
     
 }
 
+#svg:hover{
+    width:40px;
+    height: 40px;
+}
+
 body{
     background-image: radial-gradient(circle at 9.44% -7.92%, #ffffb6 0, #ffffb3 8.33%, #fff9b0 16.67%, #ffebad 25%, #ffdba9 33.33%, #ffcba4 41.67%, #f2b99d 50%, #dca896 58.33%, #c99b8f 66.67%, #b78f89 75%, #a88684 83.33%, #9b7e7f 91.67%, #91797b 100%);
     background-size: cover;
@@ -14,6 +19,30 @@ body{
 
 .bigFont{
     font-size: 60px;
+}
+
+.buttonPink{
+    background-color: rgb(163, 75, 137);
+    color: white;
+    
+}
+
+.div{
+    background: linear-gradient(
+        to top, white, rgb(163, 75, 137)
+    );
+    padding-top:30px;
+    padding-bottom:30px;
+    padding-left: 5px;
+    border-radius: 20px;
+    
+    width:650px;
+}
+
+.divPadding{
+    padding-left: 90px;
+    padding-right: 90px;
+    
 }
 
 .color{
