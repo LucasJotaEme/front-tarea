@@ -6,11 +6,12 @@
 
 </template>
 
-<script>
+<script>  
 
 import Header from './components/Header.vue'
 import Home from './components/Home.vue'
 import jQuery from 'jquery';
+//import Task from './components/Task.vue';
 
 
 let $ = jQuery;
@@ -19,7 +20,7 @@ export default {
   name: 'App',
   components: {
     Header,
-    Home    
+    Home
   },
   mounted: function () {
     var marginDiv = $('.marginDiv').hide();

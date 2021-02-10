@@ -27,7 +27,7 @@
         <div id="div4" class="container-fluid">
             <div class="divPadding">
                 <h2>Crea tu<b class="color"> nueva tarea y organizá tu día!</b></h2>
-                <router-link to="/home" style="margin-top:15px;" class="btn btn-light">Comenzar</router-link>
+                <router-link to="/task" style="margin-top:15px;" class="btn btn-light">Comenzar</router-link>
             </div>
         </div>
     </div>

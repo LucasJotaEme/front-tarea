@@ -10,6 +10,7 @@ import VueRouter from 'vue-router';
 
 //Import de Components
 import Home from './components/Home';
+import Task from './components/Task';
 
 
 
@@ -19,6 +20,7 @@ Vue.config.productionTip = false
 
 const routes = [
   {path: '/home', component: Home},
+  {path: '/task', component: Task},
   {path: '/', component: Home}
 ]
 
