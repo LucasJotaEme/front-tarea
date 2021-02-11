@@ -12,6 +12,19 @@ import VueRouter from 'vue-router';
 import Home from './components/Home';
 import Task from './components/Task';
 
+//Importando js
+
+import LoadScript from 'vue-plugin-load-script';
+
+
+Vue.use(LoadScript);
+
+Vue.loadScript('./assets/js/home.js').then(() => {
+    // Código en caso de que tu script cargue
+}).catch(() => {
+    // Código en caso de que la carga de tu script fallé
+});
+
 
 
 Vue.use(BootstrapVue)

@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="marginDiv divPadding">
-            <h1 class="bigFont color" id="welcome" >¡Bienvenido a tus tareas!</h1>
+            <h1 class="display-3 color" id="welcome" >¡Bienvenido a tus tareas!</h1>
         </div>
         <div id="div1" class="container-fluid">
             <div class="divPadding">
